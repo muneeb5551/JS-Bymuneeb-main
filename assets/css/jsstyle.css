@@ -1,0 +1,651 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    background-color: rgb(46, 44, 44);
+    color: white;
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ul li{
+    list-style-type: none;
+    padding: 15px;
+    cursor: pointer;
+    transition: .4s linear;
+}
+ul li:hover{
+    color: yellow;
+}
+#sub-header-heading{
+    margin: auto;
+    margin-top: 30px;
+
+}
+#sub-header-heading h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    word-spacing: 12px;
+    letter-spacing: 2px;
+}
+.book-cover{
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 20px;
+}
+.book-main {
+    background-color: lightgrey;
+    width: 104%;
+    margin-left: -12px;
+    border-radius: 10px 10px 0px 0px;
+}
+.about{
+    width: 70%;
+    margin-left: 170px;
+}
+.about h2{
+    font-size: 15px;
+    padding-top: 30px;
+    padding-right: 20px;
+    text-align: right;
+
+}
+.name h1{
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    margin-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+.logo{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding: 5px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+.logo h1 {
+    font-size: 26px;
+}
+.series h1{
+    font-size: 90px;
+    text-align: right;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin: 30px;
+}
+.last-js {
+    background-color: yellow;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+    width: 104%;
+    margin-left: -12px;
+    margin-bottom: -8px;
+}
+.last-js h1{
+    font-size: 360px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+.last-js h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 27px;
+    transform: rotate(-90deg);
+    color: yellow;
+    position: absolute;
+    top: 185px;
+    left: 170px;
+    word-spacing: 2px;
+}
+.main-second{
+    margin-top: 200px;
+}
+.main-second h3{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    word-spacing: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+#btn{
+    width: 60%;
+    background-color: rgb(171, 113, 4);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    margin-left: 120px;
+    margin-top: 20px;
+    transition: .4s linear;
+}
+#btn:hover{
+    background-color: black;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 70px;
+    margin-top: 30px;
+}
+.footer h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+}
+#footer-btn{
+    width: 600px;
+    background-color: rgb(171, 113, 4);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: .4s linear;
+}
+#footer-btn:hover{
+    background-color: #fff;
+    color: black;
+}
+
+@media screen and (min-width:320px) and (max-width:375px){
+    ul li a{
+        font-size: 8px;
+    }
+    .book-cover {
+        border: 1px solid black;
+        border-radius: 10px;
+        position: relative;
+        margin: 11px;
+    }
+    .logo h1 {
+        font-size: 14px;
+    }
+.main{
+    width: 100%;
+}
+.about {
+    width: 77%;
+    margin-left: 84px;
+}
+    .about h2 {
+        font-size: 10px;
+        padding-top: 31px;
+        padding-right: 20px;
+        text-align: right;
+    }
+    .book-main {
+        background-color: lightgrey;
+        width: 107.5%;
+        margin-left: -12px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .logo {
+        background-color: black;
+        color: white;
+        font-size: 7px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        padding: 5px;
+        position: absolute;
+        top: 0px;
+        left: 20px;
+    }
+    .name h1 {
+        text-align: right;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        font-size: 20px;
+        margin-top: 30px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+    .name h1 {
+        text-align: right;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        margin-top: 30px;
+        font-size: 20px;
+        padding-right: 16px;
+        padding-bottom: 10px;
+    }
+    .name h1 {
+        text-align: right;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        font-size: 20px;
+        margin-top: 30px;
+        padding-right: 13px;
+        padding-bottom: 10px;
+    }
+    .series h1 {
+        font-size: 45px;
+        text-align: right;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        margin: 18px;
+    }
+    .last-js {
+        background-color: yellow;
+        border-radius: 0px 0px 10px 10px;
+        position: relative;
+        width: 107.5%;
+        margin-left: -12px;
+        margin-bottom: -8px;
+    }
+    .last-js h1 {
+        font-size: 186px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: right;
+        margin-right: 12px;
+        letter-spacing: -2px;
+    }
+    .last-js h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        font-size: 13px;
+        transform: rotate(-90deg);
+        color: yellow;
+        position: absolute;
+        top: 95px;
+        left: 133px;
+        word-spacing: 3px;
+    }
+    .main-second {
+        margin-top: 80px;
+    }
+    .main-second h3 {
+        margin: auto;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        word-spacing: 10px;
+        letter-spacing: 1px;
+        text-align: center;
+        padding-bottom: 0px;
+    }
+    .order-section{
+        width: 80%;
+    }
+    #btn {
+        width: 254px;
+        background-color: rgb(171, 113, 4);
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        margin-left: 49px;
+        margin-top: 20px;
+    }
+    .footer h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        font-weight: 200;
+    }
+    #footer-btn {
+        width: 285px;
+        background-color: rgb(171, 113, 4);
+        color: white;
+        padding: 8px;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (min-width:376px) and (max-width:480px){
+    ul li a{
+        font-size: 8px;
+    }
+    .book-cover {
+        border: 1px solid black;
+        border-radius: 10px;
+        position: relative;
+        margin: 12px;
+    }
+    .main{
+        width: 100%;
+    }
+
+    .logo h1 {
+        font-size: 14px;
+    }
+    .about {
+        width: 77%;
+        margin-left: 84px;
+    }
+    .about h2 {
+        font-size: 10px;
+        padding-top: 31px;
+        padding-right: 20px;
+        text-align: right;
+    }
+    .book-main {
+        background-color: lightgrey;
+        width: 106%;
+        margin-left: -12px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .name h1 {
+        text-align: right;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        font-size: 20px;
+        margin-top: 30px;
+        padding-right: 23px;
+        padding-bottom: 10px;
+    }
+    .logo {
+        background-color: black;
+        color: white;
+        font-size: 6px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        padding: 5px;
+        position: absolute;
+        top: 0px;
+        left: 20px;
+    }
+    .series h1 {
+        font-size: 47px;
+        text-align: right;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        margin: 30px;
+    }
+    .last-js {
+        background-color: yellow;
+        border-radius: 0px 0px 10px 10px;
+        position: relative;
+        width: 106%;
+        margin-left: -12px;
+        margin-bottom: -8px;
+    }
+    .last-js h1 {
+        font-size: 210px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: right;
+        margin-right: 20px;
+        letter-spacing: 2px;
+    }
+    .last-js h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        font-size: 15px;
+        transform: rotate(-90deg);
+        color: yellow;
+        position: absolute;
+        top: 106px;
+        left: 141px;
+        word-spacing: 1px;
+    }
+    .main-second {
+        margin-top: 81px;
+    }
+    .main-second h3 {
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        word-spacing: 8px;
+        letter-spacing: 1px;
+        text-align: center;
+        padding-bottom: 0px;
+    }
+    #btn {
+        width: 285px;
+        background-color: rgb(171, 113, 4);
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        margin-left: 62px;
+        margin-top: 20px;
+    }
+    .footer h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: 200;
+    }
+    #footer-btn {
+        width: 299px;
+        background-color: rgb(171, 113, 4);
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .book-cover {
+        width: 80%;
+        border: 1px solid black;
+        border-radius: 10px;
+        position: relative;
+        margin-top: 20px;
+    }
+    .book-main {
+        background-color: lightgrey;
+        width: 103.6%;
+        margin-left: -12px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .about {
+        width: 76%;
+        margin-left: 123px;
+    }
+    .about h2 {
+        font-size: 12px;
+        padding-top: 30px;
+        padding-right: 20px;
+        text-align: right;
+    }
+    .name h1 {
+        text-align: right;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        font-size: 20px;
+        margin-top: 30px;
+        padding-right: 23px;
+        padding-bottom: 10px;
+    }
+    .logo {
+        background-color: black;
+        color: white;
+        font-size: 7px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        padding: 5px;
+        position: absolute;
+        top: 0px;
+        left: 20px;
+    }
+    .series h1 {
+        font-size: 61px;
+        text-align: right;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        margin: 30px;
+    }
+    .last-js {
+        background-color: yellow;
+        border-radius: 0px 0px 10px 10px;
+        position: relative;
+        width: 103.6%;
+        margin-left: -12px;
+        margin-bottom: -8px;
+    }
+    .last-js h1 {
+        font-size: 255px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: right;
+        margin-right: 30px;
+        letter-spacing: -18px;
+    }  
+    .last-js h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+        transform: rotate(-90deg);
+        color: yellow;
+        position: absolute;
+        top: 129px;
+        left: 420px;
+        word-spacing: 1px;
+    }
+    .main-second {
+        margin-top: 78px;
+    }
+    .main-second h3 {
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        word-spacing: 10px;
+        letter-spacing: 1px;
+        text-align: center;
+        padding-bottom: 0px;
+    }
+    .order-section {
+        width: 100%;
+    }
+#btn {
+    width: 285px;
+    background-color: rgb(171, 113, 4);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 189px;
+    margin-top: 20px;
+}
+.footer h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+}
+#footer-btn {
+    width: 376px;
+    background-color: rgb(171, 113, 4);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+}
+@media screen and (min-width:769px) and (max-width:991px) {
+    .book-main {
+        background-color: lightgrey;
+        width: 103.6%;
+        margin-left: -12px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .last-js h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        font-size: 27px;
+        transform: rotate(-90deg);
+        color: yellow;
+        position: absolute;
+        top: 185px;
+        left: 315px;
+        word-spacing: 2px;
+    }
+    .last-js {
+        background-color: yellow;
+        border-radius: 0px 0px 10px 10px;
+        position: relative;
+        width: 103.6%;
+        margin-left: -12px;
+        margin-bottom: -8px;
+    }
+    .main-second {
+        margin-top: 100px;
+    }
+    #btn {
+        width: 60%;
+        background-color: rgb(171, 113, 4);
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        margin: auto;
+        margin-left: 130px;
+        margin-top: 20px;
+        transition: .4s linear;
+    }
+}
+
+
+@media screen and (min-width:992px) and (max-width:1399px) {
+    .book-main {
+        background-color: lightgrey;
+        width: 104.3%;
+        margin-left: -12px;
+        border-radius: 10px 10px 0px 0px;
+    }    
+    .last-js {
+        background-color: yellow;
+        border-radius: 0px 0px 10px 10px;
+        position: relative;
+        width: 104.2%;
+        margin-left: -12px;
+        margin-bottom: -8px;
+    }
+    #btn {
+        width: 60%;
+        background-color: rgb(171, 113, 4);
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        margin: auto;
+        margin-left: 108px;
+        margin-top: 20px;
+        transition: .4s linear;
+    }
+}
